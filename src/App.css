@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 200px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.App-container {
+  width: 100%;
+  height: 50vh;
+}
+
+.generator {
+  background-color: #0b1736;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.clipBoard-container {
+  max-width: 1440px;
+  width: 90vw;
+  margin: auto;
+}
+
+.generator-form {
+  max-width: 1440px;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.generator-form input {
+  width: 70%;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d3d4d7;
+  font-size: 20px;
+  padding: 0 20px;
+  outline: none;
+  box-shadow: none;
+  margin-right: 20px;
+}
+
+.generator-form button {
+  width: 25%;
+  height: 60px;
+  background: #1b3987;
+  border-color: #1b3987;
+  outline: none;
+  box-shadow: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.11;
+  padding: 18px 30px;
+}
+
+.clipBoard {
+  height: 66px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #d3d4d7;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.clipBoard-text {
+  color: #2a5bd7;
+  font-size: 20px;
+}
+.clipBoard-btn {
+  font-size: 16px;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #edf2fe;
+  color: #2a5bd7;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1440px;
+  width: 90vw;
+  margin: auto;
+}
+
+.links-item {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
